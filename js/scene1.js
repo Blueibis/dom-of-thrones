@@ -1,5 +1,4 @@
 function scene1() {
-  //clear previous uses
 
 
   // Setup Stage
@@ -117,5 +116,6 @@ function scene1() {
     bran.style.top  = (parseInt(bran.style.top)  - 5)  + '%'
     arya.style.left = (parseInt(arya.style.left) - 10) + '%'
   }
-
+  //reset stage
+  setTimeout(reset, time + 3000)
 }

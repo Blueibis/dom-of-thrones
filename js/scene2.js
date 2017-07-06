@@ -1,6 +1,5 @@
 function scene2() {
 
-
   // Setup Stage
   var stage = document.querySelector('#stage')
   var castle = document.querySelector('#castle')
@@ -142,4 +141,6 @@ function scene2() {
     sword.style.top = (parseInt(sword.style.top) - 5) + '%'
     sword.style.left = (parseInt(sword.style.left) + 7) + '%'
   }
+  //reset stage
+  setTimeout(reset, time + 3000)
 }

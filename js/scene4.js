@@ -1,5 +1,4 @@
 function scene4() {
-
   // Setup Stage
   var stage = document.querySelector('#stage')
   var kingsLanding = document.querySelector('#kings-landing')
@@ -12,7 +11,7 @@ function scene4() {
   var pycelle = document.querySelector('#pycelle')
   var brownRobe = document.querySelector('#brown-robes')
   var blackLeather = document.querySelector('#black-leather')
-  var leatherArmour = document.querySelector('#leather-armour')
+  var leatherArmour = document.querySelector('#armour-sword')
   var varysContainer = document.createElement('div')
   var petyrContainer = document.createElement('div')
   var pycelleContainer = document.createElement('div')
@@ -38,7 +37,7 @@ function scene4() {
   varys.style.position = 'absolute'
   varys.style.width = '43%'
   varys.style.top = '0'
-  varys.style.left = '15%'
+  varys.style.left = '35%'
   leatherArmour.style.position = 'absolute'
   leatherArmour.style.bottom = '0'
 
@@ -192,5 +191,7 @@ function scene4() {
     pycelleContainer.style.top = "95%"
     pycelleContainer.style.clip = 'rect(0px, 100px, 0px, 0px)'
   })
+  //reset stage
+  setTimeout(reset, time + 3000)
 
 }

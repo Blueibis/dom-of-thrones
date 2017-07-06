@@ -120,5 +120,7 @@ function scene3() {
   function dannyMoves() {
     dannyContainer.style.left = (parseInt(dannyContainer.style.left) - 3) + '%'
   }
+  //reset stage
+  setTimeout(reset, time + 3000)
 
 }
