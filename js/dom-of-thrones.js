@@ -9,7 +9,6 @@ function frame(actions) {
   time += 500
 
 }
-
 document.addEventListener('DOMContentLoaded', function () {
-  // scene2()
+  scene4()
 })
