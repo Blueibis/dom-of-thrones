@@ -1,5 +1,6 @@
 function scene3() {
 
+
   // Setup Stage
   var stage = document.querySelector('#stage')
   var desert = document.querySelector('#desert')
@@ -112,11 +113,9 @@ function scene3() {
     egg.style.transform = 'rotate(0deg)'
     dannyMoves()
   })
+
   // Stage direction 2
 
-  frame(function() {
-
-  })
 
   function dannyMoves() {
     dannyContainer.style.left = (parseInt(dannyContainer.style.left) - 3) + '%'

@@ -9,6 +9,9 @@ function frame(actions) {
   time += 500
 
 }
+function reset() {
+  
+}
 document.addEventListener('DOMContentLoaded', function () {
-  scene4()
+//scene<sceneNumberHere>()
 })

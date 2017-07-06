@@ -84,9 +84,6 @@ function scene4() {
   var twoLeft = '45%'
   var threeLeft = '65%'
 
-  frame(function() {
-    console.log('Scene 3 begins!')
-  })
 
 
   frame(function() {
@@ -195,4 +192,5 @@ function scene4() {
     pycelleContainer.style.top = "95%"
     pycelleContainer.style.clip = 'rect(0px, 100px, 0px, 0px)'
   })
+
 }
